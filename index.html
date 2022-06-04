@@ -39,11 +39,11 @@
 
        <!-- Search Form -->
        <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <input class="form-control me-2" type="search" placeholder="search for anything" aria-label="Search" id="searchBar">
         <button class="btn btn-outline-secondary" type="submit">Search</button>
       </form>
        <!-- Nav Items-->
-       <ul class="navbar-nav">
+       <ul class="navbar-nav" id="navbar2">
         <li class="nav-item">
           <a class="nav-link" aria-current="page" href="#">Udemy Business</a>
         </li>
@@ -61,11 +61,12 @@
 
        <!-- Sign Up Nav -->
        <button class="btn btn-dark" type="button" id="signupB">Sign Up</button>
-        </ul>
+       
        <!-- Language Button-->
        <button class="btn btn-outline-secondary me-2" type="button" id="loginB">       
        <i class="fas fa-globe"></i>
        </button>
+       </ul>
     </div>
   </nav>
 <!-- Hero Slider -->
@@ -134,7 +135,7 @@
         <!-- Card Carousel 1 -->
         <div class="row align-items-center" id="cardC1">
             <div class="col">
-                <div class="card" style="width: 18rem;">
+                <div class="card h-100">
                     <img src="./assets/python-1.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Learn Python: The Complete Python Programming Course</h5>
@@ -145,7 +146,7 @@
                   </div>
             </div>
             <div class="col">
-                <div class="card" style="width: 18rem;">
+                <div class="card h-100">
                     <img src="./assets/python-2.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Learning Python for Data Analysis and Visualization</h5>
@@ -156,7 +157,7 @@
                   </div>
             </div>
             <div class="col">
-                <div class="card" style="width: 18rem;">
+                <div class="card  h-100" >
                     <img src="./assets/python-3.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Python for Beginners - Learn Programming from Scratch</h5>
@@ -167,7 +168,7 @@
                   </div>
             </div>
             <div class="col">
-                <div class="card" style="width: 18rem;">
+                <div class="card  h-100" >
                     <img src="./assets/python-4.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Python Beyond the Basics - Object-Oriented Programming</h5>
@@ -177,16 +178,7 @@
                     </div>
                   </div>
               </div>
-              <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="./assets/python-5.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Python from Scratch & Selinum WebDriver</h5>
-                      <p class="card-text authore">Admas Kinfu</p>
-                      <p class="card-text price">$109.99</p>
-                      <a href="#" class="btn btn-primary">Add to Cart</a>
-                    </div>
-                  </div>
+              
               </div>
           </div>
 
@@ -238,18 +230,7 @@
                             </div>
                           </div>
                       </div>
-                      <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <img src="./assets/Ultimate-AWS-Certified.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Ultimate AWS Certified Solutions Architect Associate 2022</h5>
-                              <p class="card-text authore">Stephanie Maarek, AWS Certified Cloud</p>
-                              <p class="card-text price">$84.99</p>
-                              <a href="#" class="btn btn-primary">Add to Cart</a>
-                            </div>
-                          </div>
-                      </div>
-                
+                                      
     </div>
 </div>
 <!-- Section 4-->
@@ -317,7 +298,7 @@
 <!-- Middle Container 4 columns cards with links Section 6 -->
 <div class="container" id="section6">
     <h3>Featured topics by categories</h3>
-    <div class="row align-items-center" id="colC1">
+    <div class="row align-items-top" id="colC1">
         <div class="card" style="width: 18rem;">
             <div class="card-body">
               <h5 class="card-title">Development</h5>
@@ -398,7 +379,7 @@
             <button type="button" class="btn btn-dark">Get Udemy Business</button>    
         </div>
         <div class="card" style="width: 18rem;">
-        <img src="./assets/ub-1x-v3.jpg" alt="Udemy Business Coachh" class="card-img-top">
+        <img src="./assets/ub-1x-v3.jpg" alt="Udemy Business Coach" class="card-img-top" id="coach">
         </div>
         
     </div>   
@@ -422,40 +403,40 @@
     <div class="row align-items-center" id="colC5">
         <div class="row align-items-start">
             <div class="col">
-                <p><a href="#" class="link-dark">Udemy Business</a></p>
-                <p><a href="#" class="link-dark">Teach on Udemy</a></p>
-                <p><a href="#" class="link-dark">Get the App</a></p>
-                <p><a href="#" class="link-dark">About Us</a></p>
-                <p><a href="#" class="link-dark">Contact Us</a></p>
+                <p><a href="#" class="link-light">Udemy Business</a></p>
+                <p><a href="#" class="link-light">Teach on Udemy</a></p>
+                <p><a href="#" class="link-light">Get the App</a></p>
+                <p><a href="#" class="link-light">About Us</a></p>
+                <p><a href="#" class="link-light">Contact Us</a></p>
             </div>
             <div class="col">
-                <p><a href="#" class="link-dark">Careers</a></p>
-                <p><a href="#" class="link-dark">Blog</a></p>
-                <p><a href="#" class="link-dark">Help and Support</a></p>
-                <p><a href="#" class="link-dark">Affiliate</a></p>
-                <p><a href="#" class="link-dark">Investors</a></p>
+                <p><a href="#" class="link-light">Careers</a></p>
+                <p><a href="#" class="link-light">Blog</a></p>
+                <p><a href="#" class="link-light">Help and Support</a></p>
+                <p><a href="#" class="link-light">Affiliate</a></p>
+                <p><a href="#" class="link-light">Investors</a></p>
             </div>
             <div class="col">
-                <p><a href="#" class="link-dark">Terms</a></p>
-                <p><a href="#" class="link-dark">Privacy Policy</a></p>
-                <p><a href="#" class="link-dark">Do Not Sell My Personal Info</a></p>
-                <p><a href="#" class="link-dark">Site map</a></p>
-                <p><a href="#" class="link-dark">Accessibility Statement</a></p>
-            </div>
-            <div class="col">
-                
+                <p><a href="#" class="link-light">Terms</a></p>
+                <p><a href="#" class="link-light">Privacy Policy</a></p>
+                <p><a href="#" class="link-light">Do Not Sell My Personal Info</a></p>
+                <p><a href="#" class="link-light">Site map</a></p>
+                <p><a href="#" class="link-light">Accessibility Statement</a></p>
             </div>
             <div class="col">
                 
             </div>
             <div class="col">
-                <button type="button" class="btn btn-outline-dark">English</button>
+                
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-outline-light">English</button>
             </div>
         </div>    
     </div>   
 <div class="container" id="section11">
     <img src="./assets/udemy-logo.png">
-    <div><p> &#169 2022 Udemy Inc. </p></div>
+    <div class="text-light"><p text-align="right"> &#169 2022 Udemy Inc. </p></div>
 </div>
 </footer>
 
